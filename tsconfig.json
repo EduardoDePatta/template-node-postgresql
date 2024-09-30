@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "CommonJS",
+    "target": "ES2022",
+    "typeRoots": ["./node_modules/@types", "./types"],
+    "noImplicitAny": true,
+    "removeComments": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "rootDir": "./src",
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "allowJs": true,
+    "paths": {
+      "#/*": ["./src/*"]
+    }
+  },
+  "exclude": ["ecosystem.config.js", "dist"]
+}

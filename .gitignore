@@ -1,0 +1,12 @@
+## Dependencies
+node_modules/
+dist
+
+# Environments
+.env
+
+# Other
+src/performance.ts
+
+# Logs
+logs
